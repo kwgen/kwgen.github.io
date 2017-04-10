@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="quartz," />
 
 
 
@@ -84,15 +84,16 @@
 
 
 
-<meta name="description" content="walk steps step by step">
-<meta property="og:type" content="website">
-<meta property="og:title" content="kwgen's blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="一.简单的spring boot 的quartz12345678910@Component@Configurable@EnableSchedulingpublic class TaskScheduler &amp;#123;    private static Logger log = LoggerFactory.getLogger(TaskScheduler.class);    @Scheduled(">
+<meta property="og:type" content="article">
+<meta property="og:title" content="quartz">
+<meta property="og:url" content="http://yoursite.com/2017/04/09/quartz/index.html">
 <meta property="og:site_name" content="kwgen's blog">
-<meta property="og:description" content="walk steps step by step">
+<meta property="og:description" content="一.简单的spring boot 的quartz12345678910@Component@Configurable@EnableSchedulingpublic class TaskScheduler &amp;#123;    private static Logger log = LoggerFactory.getLogger(TaskScheduler.class);    @Scheduled(">
+<meta property="og:updated_time" content="2017-04-09T07:21:02.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="kwgen's blog">
-<meta name="twitter:description" content="walk steps step by step">
+<meta name="twitter:title" content="quartz">
+<meta name="twitter:description" content="一.简单的spring boot 的quartz12345678910@Component@Configurable@EnableSchedulingpublic class TaskScheduler &amp;#123;    private static Logger log = LoggerFactory.getLogger(TaskScheduler.class);    @Scheduled(">
 
 
 
@@ -113,9 +114,9 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/04/09/quartz/"/>
 
-  <title> kwgen's blog </title>
+  <title> quartz | kwgen's blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -146,9 +147,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -275,9 +274,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -297,10 +296,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2017/04/09/quartz/" itemprop="url">
-                  quartz
-                </a>
+                quartz
               
             
           </h1>
@@ -347,9 +343,7 @@
       
 
       
-        
-          
-            <h2 id="一-简单的spring-boot-的quartz"><a href="#一-简单的spring-boot-的quartz" class="headerlink" title="一.简单的spring boot 的quartz"></a>一.简单的spring boot 的quartz</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">@Component</div><div class="line">@Configurable</div><div class="line">@EnableScheduling</div><div class="line">public class TaskScheduler &#123;</div><div class="line">    private static Logger log = LoggerFactory.getLogger(TaskScheduler.class);</div><div class="line">    @Scheduled(cron = &quot;0 0 2 * * ?&quot;) // 每天2am</div><div class="line">    public void test() &#123;</div><div class="line">        //do something</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+        <h2 id="一-简单的spring-boot-的quartz"><a href="#一-简单的spring-boot-的quartz" class="headerlink" title="一.简单的spring boot 的quartz"></a>一.简单的spring boot 的quartz</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">@Component</div><div class="line">@Configurable</div><div class="line">@EnableScheduling</div><div class="line">public class TaskScheduler &#123;</div><div class="line">    private static Logger log = LoggerFactory.getLogger(TaskScheduler.class);</div><div class="line">    @Scheduled(cron = &quot;0 0 2 * * ?&quot;) // 每天2am</div><div class="line">    public void test() &#123;</div><div class="line">        //do something</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <h2 id="二-java-自带的quartz"><a href="#二-java-自带的quartz" class="headerlink" title="二.java 自带的quartz"></a>二.java 自带的quartz</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div></pre></td><td class="code"><pre><div class="line">import java.util.*;</div><div class="line"></div><div class="line">import javax.annotation.PostConstruct;</div><div class="line"></div><div class="line">import org.slf4j.*;</div><div class="line">import org.springframework.beans.factory.annotation.Autowired;</div><div class="line">import org.springframework.stereotype.Component;</div><div class="line"></div><div class="line">@Component</div><div class="line">public class TaskScheduler &#123;</div><div class="line">    private static Logger log = LoggerFactory.getLogger(TaskScheduler.class);</div><div class="line"></div><div class="line">    @Autowired</div><div class="line">    private StartCatchService startCatchService;//定时任务的方法存放</div><div class="line"></div><div class="line">    @Autowired</div><div class="line">    private QuartzRepository quartzRepository;//获取定时任务的参数dao层</div><div class="line">    @Autowired</div><div class="line">    public QuartzLogRepository quartzLogRepository; 定时任务日志记录</div><div class="line"></div><div class="line">    @PostConstruct</div><div class="line">    public void doScheduleAuto() &#123;</div><div class="line">        List&lt;Quartz&gt; quartzList = quartzRepository.findAll();</div><div class="line">        for (Quartz quartz : quartzList) &#123;</div><div class="line">            int status = quartz.getStatus();</div><div class="line">            if (StatusEnum.VALID.getValue() == status) &#123;</div><div class="line">                addSchedule(quartz);</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">    public void addSchedule(Quartz quartz) &#123;</div><div class="line"></div><div class="line">        String method = quartz.getMethod();// 要执行的方法</div><div class="line">        String startTime = quartz.getStartTime();// 执行的开始时间</div><div class="line">        String period = quartz.getPeriod();// 执行的间隔</div><div class="line">        String explain = quartz.getExplain();// 说明</div><div class="line">        Timer timer = new Timer();</div><div class="line">        timer.scheduleAtFixedRate(new TimerTask() &#123;</div><div class="line">            public void run() &#123;</div><div class="line">                QuartzLog quartzLog = new QuartzLog(new Date(), method, 1, 0, &quot;sucess&quot;);</div><div class="line">                try &#123;</div><div class="line">                    StartCatchService.class.getMethod(method).invoke(startCatchService);</div><div class="line">                &#125; catch (Exception e) &#123;</div><div class="line">                    quartzLog.setResult(2);</div><div class="line">                    quartzLog.setMessage(&quot;fail&quot;);</div><div class="line">                    log.info(&quot;开启定时调度爬虫失败，method=&#123;&#125;,startTime=&#123;&#125;,period=&#123;&#125;,explain=&#123;&#125;&quot;, method, startTime, period, explain);</div><div class="line">                &#125;</div><div class="line">                log.info(&quot;定时调度爬取数据sucess：explain=&#123;&#125;&quot;, explain);</div><div class="line">                quartzLogRepository.save(quartzLog);</div><div class="line">            &#125;</div><div class="line"></div><div class="line">        &#125;, DataUtils.delayed(startTime), Long.valueOf(period));// 这里设定将延时每天固定执行</div><div class="line">        log.info(&quot;加载定时调度爬取数据：method=&#123;&#125;,startTime=&#123;&#125;,period=&#123;&#125;,explain=&#123;&#125;，sucess&quot;, method, startTime, period, explain);</div><div class="line"></div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>将quartz的调度信息放在表中，启动项目后自动加载</p>
 <h2 id="三-利用第三方和spring结合"><a href="#三-利用第三方和spring结合" class="headerlink" title="三.利用第三方和spring结合"></a>三.利用第三方和spring结合</h2><p>导入jar包</p>
@@ -366,255 +360,59 @@
 <p>7.创建全局的job监听<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div></pre></td><td class="code"><pre><div class="line">import org.quartz.*;</div><div class="line">import org.slf4j.Logger;</div><div class="line">import org.slf4j.LoggerFactory;</div><div class="line">import org.springframework.beans.factory.annotation.Autowired;</div><div class="line">import org.springframework.context.ApplicationContext;</div><div class="line">import org.springframework.stereotype.Component;</div><div class="line"></div><div class="line">import java.util.Date;</div><div class="line"></div><div class="line">@Component</div><div class="line">public class GlobalLogJobListener implements JobListener &#123;</div><div class="line"></div><div class="line">    private static Logger log = LoggerFactory.getLogger(GlobalLogJobListener.class);</div><div class="line">    @Autowired</div><div class="line">    private ScheduleLogService scheduleLogService;//用于记录log的service</div><div class="line"></div><div class="line">    @Override</div><div class="line">    public String getName() &#123;</div><div class="line">        return &quot;globalLogJobListener&quot;;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // Scheduler 在 JobDetail 将要被执行时调用这个方法。</div><div class="line">    @Override</div><div class="line">    public void jobToBeExecuted(JobExecutionContext context) &#123;</div><div class="line">        try &#123;</div><div class="line">            ApplicationContext applicationContext = (ApplicationContext) (context.getScheduler().getContext().get(&quot;applicationContext&quot;));</div><div class="line">            scheduleLogService = applicationContext.getBean(ScheduleLogService.class);</div><div class="line">        &#125; catch (SchedulerException e) &#123;</div><div class="line">            e.printStackTrace();</div><div class="line">        &#125;</div><div class="line"></div><div class="line">        JobDetail jobDetail = context.getJobDetail();</div><div class="line">        Job jobInstance = context.getJobInstance();</div><div class="line">        this.getScheduleLog(jobDetail);</div><div class="line"></div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // Scheduler 在 JobDetail 即将被执行，但又被 TriggerListener 否决了时调用这个方法。</div><div class="line">    @Override</div><div class="line">    public void jobExecutionVetoed(JobExecutionContext context) &#123;</div><div class="line"></div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // Scheduler 在 JobDetail 被执行之后调用这个方法。</div><div class="line">    @Override</div><div class="line">    public void jobWasExecuted(JobExecutionContext context, JobExecutionException jobException) &#123;</div><div class="line">        JobDetail jobDetail = context.getJobDetail();</div><div class="line">        ScheduleLog scheduleLog = this.getScheduleLog(jobDetail);</div><div class="line">        // 执行方法后异常</div><div class="line">        if (jobException != null) &#123;</div><div class="line">            String message = jobException.getMessage();</div><div class="line">            scheduleLog.setResultMessage(message);</div><div class="line">            scheduleLog.setResultCode(0);</div><div class="line">        &#125; else &#123;</div><div class="line">            scheduleLog.setResultMessage(&quot;success&quot;);</div><div class="line">            scheduleLog.setResultCode(1);</div><div class="line">        &#125;</div><div class="line">        ScheduleLog create = this.scheduleLogService.create(scheduleLog);</div><div class="line">        log.info(&quot;excute job result:&#123;&#125;&quot;, create);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public ScheduleLog getScheduleLog(JobDetail jobDetail) &#123;</div><div class="line">        ScheduleLog scheduleLog = (ScheduleLog) jobDetail.getJobDataMap().get(&quot;scheduleLog&quot;);</div><div class="line">        if (scheduleLog == null) &#123;</div><div class="line">            JobKey key = jobDetail.getKey();</div><div class="line">            scheduleLog = new ScheduleLog();</div><div class="line">            scheduleLog.setJobName(key.getName());</div><div class="line">            scheduleLog.setJobGroup(key.getGroup());</div><div class="line">            scheduleLog.setStartTime(new Date());</div><div class="line">            jobDetail.getJobDataMap().put(&quot;scheduleLog&quot;, scheduleLog);</div><div class="line">        &#125;</div><div class="line">        scheduleLog.setEndTime(new Date());</div><div class="line">        return scheduleLog;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>8.创建job，继承Job接口<br>9.最后提供接口，让job可配置化，可以从界面上操控job</p>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
     <footer class="post-footer">
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/04/09/微信支付/" itemprop="url">
-                  微信支付
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-04-09T12:00:00+08:00" content="2017-04-09">
-              2017-04-09
-            </time>
-          </span>
-
+        <div class="post-tags">
           
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2017/04/09/微信支付/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/04/09/微信支付/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
+            <a href="/tags/quartz/" rel="tag">#quartz</a>
           
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p id="build"></p>
-
-
-<p>先导入微信的第三方依赖</p>
-<pre><code>&lt;dependency&gt;
-    &lt;groupId&gt;me.hao0&lt;/groupId&gt;
-    &lt;artifactId&gt;wepay-core&lt;/artifactId&gt;
-    &lt;version&gt;1.1.2&lt;/version&gt;
-&lt;/dependency&gt;
-</code></pre><p>先建微信支付的基类，然后各种支付类型的实现继承它</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div></pre></td><td class="code"><pre><div class="line">import java.math.BigDecimal;</div><div class="line">import java.text.SimpleDateFormat;</div><div class="line">import java.util.Map;</div><div class="line"></div><div class="line">import org.slf4j.*;</div><div class="line"></div><div class="line">import com.google.common.base.Strings;</div><div class="line"></div><div class="line">import cn.swao.baselib.util.*;</div><div class="line">import me.hao0.wepay.core.*;</div><div class="line">import me.hao0.wepay.exception.WepayException;</div><div class="line">import me.hao0.wepay.model.order.WePayOrder;</div><div class="line">import me.hao0.wepay.model.refund.*;</div><div class="line"></div><div class="line">public class WxPayService &#123;</div><div class="line"></div><div class="line">    private static Logger log = LoggerFactory.getLogger(WxPayService.class);</div><div class="line"></div><div class="line">    public Wepay wepay = null;</div><div class="line"></div><div class="line">    public final static SimpleDateFormat wxTimeFormat = new SimpleDateFormat(&quot;yyyyMMddHHmmss&quot;);</div><div class="line"></div><div class="line">    public String merchant = null;</div><div class="line"></div><div class="line">    public void setMerchant(String merchant) &#123;</div><div class="line">        this.merchant = merchant;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public Wepay initWepay(String certPath, String appId, String payKey, String payMerchant, String certPasswd) &#123;</div><div class="line">        if (Strings.isNullOrEmpty(certPath)) &#123;</div><div class="line">            log.info(&quot;WxPay : no init.&quot;);</div><div class="line">        &#125; else &#123;</div><div class="line">            log.info(&quot;WxPay : init. &quot; + certPath);</div><div class="line">            byte[] data = FsUtils.readBinaryFile(certPath);//读取证书</div><div class="line">            if (data == null)</div><div class="line">                log.error(&quot;WxPay : read cert error. &quot; + certPath);</div><div class="line">            else</div><div class="line">                this.wepay = WepayBuilder.newBuilder(appId, payKey, payMerchant).certPasswd(certPasswd).certs(data).build();</div><div class="line">        &#125;</div><div class="line">        return this.wepay;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    public Notifies getNotifies() &#123;</div><div class="line">        return this.wepay.notifies();</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // 异步通知检验</div><div class="line">    public boolean notifyVerify(Map&lt;String, ?&gt; map) &#123;</div><div class="line">        return getNotifies().verifySign(map);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // 订单查询</div><div class="line">    public WePayOrder getOrder(String outTradeNo) &#123;</div><div class="line">        try &#123;</div><div class="line">            return this.wepay.order().queryByOutTradeNo(outTradeNo);</div><div class="line">        &#125; catch (WepayException e) &#123;</div><div class="line">            log.error(&quot;WxPay getOrder&quot;, e);</div><div class="line">            return null;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // 退款</div><div class="line">    public RefundApplyResponse refund(String outTradeNo, BigDecimal fee) &#123;</div><div class="line">        try &#123;</div><div class="line">            log.info(LogUtils.gen(&quot;WxPay refund&quot;, &quot;out_trade_no&quot;, outTradeNo));</div><div class="line">            Integer totalFee = fee.multiply(new BigDecimal(100)).intValue();</div><div class="line">            RefundApplyRequest req = new RefundApplyRequest();</div><div class="line">            req.setOutTradeNo(outTradeNo);</div><div class="line">            req.setOutRefundNo(outTradeNo);</div><div class="line">            req.setTotalFee(totalFee);</div><div class="line">            req.setRefundFee(totalFee);</div><div class="line">            req.setOpUserId(this.merchant);</div><div class="line"></div><div class="line">            RefundApplyResponse result = this.wepay.refund().apply(req);</div><div class="line">            log.info(LogUtils.gen(&quot;WxPay sucess&quot;, &quot;RefundApplyResponse&quot;, result.toString()));</div><div class="line">            return result;</div><div class="line">        &#125; catch (WepayException e) &#123;</div><div class="line">            log.error(&quot;WxPay refund&quot;, e);</div><div class="line">            return null;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // 退款查询</div><div class="line">    public RefundQueryResponse getRefund(String outTradeNo) &#123;</div><div class="line">        try &#123;</div><div class="line">            return wepay.refund().queryByOutTradeNo(outTradeNo);</div><div class="line">        &#125; catch (WepayException e) &#123;</div><div class="line">            log.error(&quot;WxPay getRefund&quot;, e);</div><div class="line">            return null;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>initWepay是对微信支付client对象初始化，其中还有通用的退款、查询、异步通知校验的方法。</p>
-<p>1.app支付<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div></pre></td><td class="code"><pre><div class="line">import java.math.BigDecimal;</div><div class="line">import java.net.*;</div><div class="line">import java.util.Map;</div><div class="line"></div><div class="line">import javax.annotation.PostConstruct;</div><div class="line"></div><div class="line">import org.slf4j.*;</div><div class="line">import org.springframework.beans.factory.annotation.Value;</div><div class="line">import org.springframework.stereotype.Service;</div><div class="line"></div><div class="line">import com.google.common.base.Strings;</div><div class="line">import com.google.common.collect.Maps;</div><div class="line">import com.google.gson.JsonObject;</div><div class="line"></div><div class="line">import cn.swao.baselib.util.*;</div><div class="line">import me.hao0.wepay.model.pay.*;</div><div class="line"></div><div class="line">@Service</div><div class="line">public class WxAppService extends WxPayService &#123;</div><div class="line"></div><div class="line">    private static Logger log = LoggerFactory.getLogger(WeixinMpService.class);</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;open.appId:&#125;&quot;)</div><div class="line">    private String appId = null;</div><div class="line">    @Value(&quot;$&#123;open.appSecret:&#125;&quot;)</div><div class="line">    private String appSecret = null;</div><div class="line">    @Value(&quot;$&#123;open.pay.Merchant:&#125;&quot;)</div><div class="line">    private String payMerchant = null;</div><div class="line">    @Value(&quot;$&#123;open.pay.Key:&#125;&quot;)</div><div class="line">    private String payKey = null;</div><div class="line">    @Value(&quot;$&#123;open.pay.CertPasswd:&#125;&quot;)</div><div class="line">    private String certPasswd = null;</div><div class="line">    @Value(&quot;$&#123;open.pay.CertPath:&#125;&quot;)</div><div class="line">    private String certPath = null;</div><div class="line">    @Value(&quot;$&#123;open.pay.notifyUrl:&#125;&quot;)</div><div class="line">    private String payNotifyUrl = null;</div><div class="line"></div><div class="line">    @PostConstruct</div><div class="line">    private void init() &#123;</div><div class="line">        initWepay(certPath, appId, payKey, payMerchant, certPasswd);</div><div class="line">        setMerchant(this.payMerchant);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // app支付</div><div class="line">    public AppPayResponse getAppPay(String outTradeNo, BigDecimal fee, String body, String ip) &#123;</div><div class="line">        log.info(LogUtils.gen(&quot;wxapp下单&quot;, &quot;out_trade_no&quot;, outTradeNo, &quot;body&quot;, body, &quot;ip&quot;, ip));</div><div class="line">        PayRequest app = new PayRequest();</div><div class="line">        int totalFee = FinanceUtils.toFen(fee);</div><div class="line">        app.setBody(body);</div><div class="line">        app.setNotifyUrl(this.payNotifyUrl);</div><div class="line">        app.setOutTradeNo(outTradeNo);</div><div class="line">        app.setTotalFee(totalFee);</div><div class="line">        if (Strings.isNullOrEmpty(ip)) &#123;</div><div class="line">            try &#123;</div><div class="line">                ip = InetAddress.getLocalHost().getHostAddress();//如果ip为空，那么拿本机ip(防止拿不到ip导致的异常)</div><div class="line">            &#125; catch (UnknownHostException e) &#123;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">        app.setClientId(ip);</div><div class="line">        app.setTimeStart(DateUtils.nowString(wxTimeFormat));</div><div class="line">        Map&lt;String, Object&gt; attachMap = Maps.newHashMap();</div><div class="line">        attachMap.put(&quot;out_trade_no&quot;, outTradeNo);</div><div class="line">        attachMap.put(&quot;wxPayWay&quot;, &quot;JSAPI&quot;);</div><div class="line">        app.setAttach(JSONUtils.toJson(attachMap));</div><div class="line"></div><div class="line">        try &#123;</div><div class="line">            log.info(LogUtils.gen(&quot;app&quot;, app.toString()));</div><div class="line">            AppPayResponse appPay = super.wepay.pay().appPay(app);</div><div class="line">            log.info(LogUtils.gen(&quot;wxapp下单成功&quot;, &quot;appPay&quot;, appPay.toString()));</div><div class="line">            return appPay;</div><div class="line">        &#125; catch (Exception e) &#123;</div><div class="line">            log.error(&quot;WxAppService getAppPay&quot;, e);</div><div class="line">            return null;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<p>其中的方法是app统一支付下单的方法，其他的查询和异步验签只需要用父类的方法。@Value中的参数写在配置文件中，这些参数是app支付必要的一些参数 ,@PostConstruct项目启动后调用，获取微信支付的对象。<br>2.微信公众号支付和扫码支付</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div></pre></td><td class="code"><pre><div class="line">import cn.swao.baselib.model.NotifyTemplates;</div><div class="line">import cn.swao.baselib.util.*;</div><div class="line">import com.google.common.base.Strings;</div><div class="line">import com.google.common.collect.Maps;</div><div class="line">import com.google.gson.JsonObject;</div><div class="line">import me.hao0.wepay.exception.WepayException;</div><div class="line">import me.hao0.wepay.model.pay.JsPayRequest;</div><div class="line">import me.hao0.wepay.model.pay.JsPayResponse;</div><div class="line">import me.hao0.wepay.model.pay.QrPayRequest;</div><div class="line">import org.slf4j.Logger;</div><div class="line">import org.slf4j.LoggerFactory;</div><div class="line">import org.springframework.beans.factory.annotation.Value;</div><div class="line">import org.springframework.stereotype.Service;</div><div class="line"></div><div class="line">import javax.annotation.PostConstruct;</div><div class="line">import java.math.BigDecimal;</div><div class="line">import java.util.*;</div><div class="line"></div><div class="line">@Service</div><div class="line">public class WeixinMpService extends WxPayService &#123;</div><div class="line">    private static Logger log = LoggerFactory.getLogger(WeixinMpService.class);</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;mp.appId:&#125;&quot;)</div><div class="line">    private String appId = null;</div><div class="line">    @Value(&quot;$&#123;mp.appSecret:&#125;&quot;)</div><div class="line">    private String appSecret = null;</div><div class="line">    @Value(&quot;$&#123;mp.pay.Merchant:&#125;&quot;)</div><div class="line">    private String payMerchant = null;</div><div class="line">    @Value(&quot;$&#123;mp.pay.Key:&#125;&quot;)</div><div class="line">    private String payKey = null;</div><div class="line">    @Value(&quot;$&#123;mp.pay.CertPasswd:&#125;&quot;)</div><div class="line">    private String certPasswd = null;</div><div class="line">    @Value(&quot;$&#123;mp.pay.CertPath:&#125;&quot;)</div><div class="line">    private String certPath = null;</div><div class="line">    @Value(&quot;$&#123;mp.pay.notifyUrl:&#125;&quot;)</div><div class="line">    private String payNotifyUrl = null;</div><div class="line"></div><div class="line">    @PostConstruct</div><div class="line">    private void init() &#123;</div><div class="line">        initWepay(this.certPath, this.appId, this.payKey, this.payMerchant, this.certPasswd);</div><div class="line">        setMerchant(this.payMerchant);</div><div class="line">    &#125;</div><div class="line"></div><div class="line"></div><div class="line">    // 微信公众号支付</div><div class="line">    public JsPayResponse getJsPay(String outTradeNo, BigDecimal fee, String body, String ip, String openid) &#123;</div><div class="line">        log.info(LogUtils.gen(&quot;开始统一下单&quot;, &quot;out_trade_no&quot;, outTradeNo, &quot;body&quot;, body, &quot;ip&quot;, ip, &quot;openid&quot;, openid));</div><div class="line">        int totalFee = FinanceUtils.toFen(fee);</div><div class="line">        JsPayRequest jpr = new JsPayRequest();</div><div class="line">        jpr.setBody(body);</div><div class="line">        jpr.setNotifyUrl(this.payNotifyUrl);</div><div class="line">        jpr.setOutTradeNo(outTradeNo);</div><div class="line">        jpr.setTotalFee(totalFee);</div><div class="line">        if (Strings.isNullOrEmpty(ip))</div><div class="line">            ip = SysUtils.getIp();</div><div class="line">        jpr.setClientId(ip);</div><div class="line">        jpr.setOpenId(openid);</div><div class="line">        jpr.setTimeStart(DateUtils.nowString(wxTimeFormat));</div><div class="line">        Map&lt;String, Object&gt; attachMap = Maps.newHashMap();</div><div class="line">        attachMap.put(&quot;out_trade_no&quot;, outTradeNo);</div><div class="line">        attachMap.put(&quot;wxPayWay&quot;, &quot;JSAPI&quot;);</div><div class="line">        jpr.setAttach(JSONUtils.toJson(attachMap));</div><div class="line"></div><div class="line">        try &#123;</div><div class="line">            log.info(LogUtils.gen(&quot;jpr&quot;, jpr.toString()));</div><div class="line">            JsPayResponse jsPay = this.wepay.pay().jsPay(jpr);</div><div class="line">            log.info(LogUtils.gen(&quot;统一下单成功&quot;, &quot;JsPayResponse&quot;, jsPay.toString()));</div><div class="line">            return jsPay;</div><div class="line">        &#125; catch (WepayException e) &#123;</div><div class="line">            log.error(&quot;WeixinService getJsPay&quot;, e);</div><div class="line">            return null;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    //扫码支付</div><div class="line">    public String getQrPay(String outTradeNo, BigDecimal fee, String body, String ip, String productId) &#123;</div><div class="line">        log.info(LogUtils.gen(&quot;开始统一下单&quot;, &quot;out_trade_no&quot;, outTradeNo, &quot;body&quot;, body, &quot;ip&quot;, ip, &quot;productId&quot;, productId));</div><div class="line">        QrPayRequest qr = new QrPayRequest();</div><div class="line">        int totalFee = FinanceUtils.toFen(fee);</div><div class="line"></div><div class="line">        qr.setBody(body);</div><div class="line">        qr.setNotifyUrl(this.payNotifyUrl);</div><div class="line">        qr.setOutTradeNo(outTradeNo);</div><div class="line">        qr.setTotalFee(totalFee);</div><div class="line">        if (Strings.isNullOrEmpty(ip))</div><div class="line">            ip = SysUtils.getIp();//获取本机地址ip</div><div class="line">        qr.setClientId(ip);</div><div class="line">        qr.setTimeStart(DateUtils.nowString(wxTimeFormat));</div><div class="line">        qr.setProductId(productId);</div><div class="line">        String codeUrl = null;</div><div class="line">        try &#123;</div><div class="line">            codeUrl = this.wepay.pay().qrPay(qr);</div><div class="line">            log.info(&quot;扫码支付 codeUrl:&#123;&#125;&quot;, codeUrl);</div><div class="line">        &#125; catch (Exception e) &#123;</div><div class="line">            log.error(&quot;扫码支付下单失败&quot;, e);</div><div class="line">        &#125;</div><div class="line">        return codeUrl;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
+              <a href="/2017/04/09/微信支付/" rel="next" title="微信支付">
+                <i class="fa fa-chevron-left"></i> 微信支付
+              </a>
             
-              
-                
-                <a class="post-title-link" href="/2017/04/09/支付宝支付/" itemprop="url">
-                  支付宝支付
-                </a>
-              
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-04-09T12:00:00+08:00" content="2017-04-09">
-              2017-04-09
-            </time>
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2017/04/09/支付宝支付/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/04/09/支付宝支付/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
+          </div>
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>先导入第三方jar包<br>建立基类，所有支付类型都继承它<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div><div class="line">107</div><div class="line">108</div><div class="line">109</div><div class="line">110</div><div class="line">111</div><div class="line">112</div><div class="line">113</div><div class="line">114</div><div class="line">115</div><div class="line">116</div><div class="line">117</div><div class="line">118</div><div class="line">119</div><div class="line">120</div><div class="line">121</div><div class="line">122</div><div class="line">123</div><div class="line">124</div><div class="line">125</div><div class="line">126</div><div class="line">127</div><div class="line">128</div><div class="line">129</div><div class="line">130</div><div class="line">131</div><div class="line">132</div><div class="line">133</div><div class="line">134</div><div class="line">135</div><div class="line">136</div><div class="line">137</div><div class="line">138</div><div class="line">139</div><div class="line">140</div><div class="line">141</div><div class="line">142</div><div class="line">143</div><div class="line">144</div><div class="line">145</div><div class="line">146</div><div class="line">147</div><div class="line">148</div><div class="line">149</div><div class="line">150</div></pre></td><td class="code"><pre><div class="line">import java.util.*;</div><div class="line"></div><div class="line">import org.slf4j.*;</div><div class="line">import org.springframework.beans.factory.annotation.Value;</div><div class="line">import org.springframework.stereotype.Service;</div><div class="line"></div><div class="line">import com.alipay.api.*;</div><div class="line">import com.alipay.api.internal.util.AlipaySignature;</div><div class="line">import com.alipay.api.request.*;</div><div class="line">import com.alipay.api.response.*;</div><div class="line"></div><div class="line">import cn.swao.baselib.util.*;</div><div class="line"></div><div class="line">@Service</div><div class="line">public class AliParamService &#123;</div><div class="line">    private static Logger log = LoggerFactory.getLogger(AliParamService.class);</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;partner:&#125;&quot;)</div><div class="line">    protected String partner;</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;private_key:&#125;&quot;)</div><div class="line">    protected String private_key;</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;public_key:&#125;&quot;)</div><div class="line">    protected String public_key;</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;alipay_public_key:&#125;&quot;)</div><div class="line">    protected String alipay_public_key;</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;notify_url:&#125;&quot;)</div><div class="line">    protected String notify_url;</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;app_id:&#125;&quot;)</div><div class="line">    protected String app_id;</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;timeout_express:&#125;&quot;)</div><div class="line">    protected String timeout_express;</div><div class="line"></div><div class="line">    protected String sign_type = &quot;RSA&quot;;</div><div class="line"></div><div class="line">    protected String input_charset = &quot;utf-8&quot;;</div><div class="line"></div><div class="line">    protected String format = &quot;json&quot;;</div><div class="line"></div><div class="line">    protected String version = &quot;1.0&quot;;</div><div class="line"></div><div class="line">    protected AlipayClient alipayClient = null;</div><div class="line"></div><div class="line">    public void getClient(String requestUrl) &#123;</div><div class="line">        alipayClient = new DefaultAlipayClient(requestUrl, app_id, private_key, format, input_charset, alipay_public_key);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // 异步 synNotify</div><div class="line">    public boolean asynNotify(Map&lt;String, String&gt; map) &#123;</div><div class="line">        boolean flag = false;</div><div class="line">        try &#123;</div><div class="line">            log.info(LogUtils.gen(&quot;map&quot;, map));</div><div class="line">            if (partner.equals(map.get(&quot;seller_id&quot;)) &amp;&amp; app_id.equals(map.get(&quot;app_id&quot;))) &#123;</div><div class="line">                log.info(&quot;partner:&quot; + partner + &quot;seller_id&quot; + map.get(&quot;seller_id&quot;));</div><div class="line">                flag = AlipaySignature.rsaCheckV1(map, alipay_public_key, input_charset);</div><div class="line">            &#125;</div><div class="line">        &#125; catch (AlipayApiException e) &#123;</div><div class="line">            log.info(&quot;异步通知校验失败&quot;, e);</div><div class="line">            flag = false;</div><div class="line">        &#125;</div><div class="line">        return flag;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // 同步</div><div class="line">    public boolean synNotify(Map&lt;String, String&gt; alipay, String sign) &#123;</div><div class="line">        boolean flag = false;</div><div class="line">        log.info(&quot;同步验证参数，alipay=&#123;&#125;,sign=&#123;&#125;&quot;, alipay, sign);</div><div class="line">        try &#123;</div><div class="line">            if (partner.equals(alipay.get(&quot;seller_id&quot;)) &amp;&amp; app_id.equals(alipay.get(&quot;app_id&quot;))) &#123;</div><div class="line">                log.info(&quot;开始同步签名验证&quot;);</div><div class="line">                flag = AlipaySignature.rsaCheckContent(JSONUtils.toJson(alipay).toString(), sign, alipay_public_key, input_charset);</div><div class="line">            &#125;</div><div class="line">        &#125; catch (AlipayApiException e) &#123;</div><div class="line">            log.info(&quot;同步通知校验失败&quot;, e);</div><div class="line">            flag = false;</div><div class="line">        &#125;</div><div class="line">        return flag;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    /**</div><div class="line">     * out_trade_no 支付时传入的商户订单号，与trade_no必填一个 trade_no 支付时返回的支付宝交易号，与out_trade_no必填一个</div><div class="line">     */</div><div class="line">    public String queryOrder(Map&lt;String, String&gt; map) &#123;</div><div class="line">        AlipayTradeQueryRequest request = new AlipayTradeQueryRequest();// 创建API对应的request类</div><div class="line">        AlipayTradeQueryResponse response = null;</div><div class="line">        String result = null;</div><div class="line">        try &#123;</div><div class="line">            request.setBizContent(JSONUtils.toJson(AlipayCore.emptyFilter(map)).toString());// 设置业务参数</div><div class="line">            response = alipayClient.execute(request);</div><div class="line">            result = response.getBody();</div><div class="line">        &#125; catch (AlipayApiException e) &#123;</div><div class="line">            log.info(&quot;查询订单失败&#123;&#125;&quot;, map);</div><div class="line">        &#125;</div><div class="line">        return result;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // 退款</div><div class="line">    public Map&lt;String, Object&gt; refund(Map&lt;String, String&gt; map) &#123;</div><div class="line">        log.info(&quot;ali开始退款&quot;);</div><div class="line">        log.info(LogUtils.gen(&quot;map&quot;, map));</div><div class="line">        AlipayTradeRefundRequest request = new AlipayTradeRefundRequest();</div><div class="line">        request.setBizContent(JSONUtils.toJson(AlipayCore.emptyFilter(map)).toString());</div><div class="line">        AlipayTradeRefundResponse response = null;</div><div class="line">        boolean flag = false;</div><div class="line">        String msg = null;</div><div class="line">        String subCode = null;</div><div class="line">        String out_trade_no = null;</div><div class="line">        Map&lt;String, Object&gt; data = new HashMap&lt;String, Object&gt;();</div><div class="line">        try &#123;</div><div class="line">            response = alipayClient.execute(request);</div><div class="line">            out_trade_no = response.getOutTradeNo();</div><div class="line">            // Map body = WebUtils.getJsonParams(response.getBody());</div><div class="line">        &#125; catch (Exception e) &#123;</div><div class="line">            msg = &quot;退款失败:&quot; + e;</div><div class="line">            log.info(msg);</div><div class="line">            data.put(&quot;flag&quot;, flag);</div><div class="line">            data.put(&quot;msg&quot;, &quot;退款失败&quot;);</div><div class="line">            return data;</div><div class="line">        &#125;</div><div class="line">        if (response != null &amp;&amp; response.isSuccess()) &#123;</div><div class="line">            String fundChange = response.getFundChange();</div><div class="line">            if (&quot;Y&quot;.equals(fundChange)) &#123;</div><div class="line">                flag = true;</div><div class="line">                msg = &quot;退款成功&quot;;</div><div class="line">                data.put(&quot;out_trade_no&quot;, out_trade_no);</div><div class="line">                data.put(&quot;refund_fee&quot;, response.getRefundFee());</div><div class="line">                data.put(&quot;gmtRefundPay&quot;, response.getGmtRefundPay());</div><div class="line">                data.put(&quot;buyer_logon_id&quot;, response.getBuyerLogonId());</div><div class="line">            &#125; else if (&quot;N&quot;.equals(fundChange)) &#123;</div><div class="line">                msg = &quot;已完成退款，不可重复退款&quot;;</div><div class="line">                flag = false;</div><div class="line">            &#125;</div><div class="line">        &#125; else &#123;</div><div class="line">            msg = response.getSubMsg();</div><div class="line">            subCode = response.getSubCode();</div><div class="line">            flag = false;</div><div class="line">        &#125;</div><div class="line">        data.put(&quot;msg&quot;, msg);</div><div class="line">        data.put(&quot;flag&quot;, flag);</div><div class="line">        data.put(&quot;subCode&quot;, subCode);</div><div class="line">        log.info(LogUtils.gen(&quot;refund return&quot;, &quot;out_trade_no&quot;, out_trade_no, &quot;msg&quot;, msg, &quot;subCode&quot;, subCode));</div><div class="line">        return data;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<p>基类提供了获取支付对象、查询、退款的方法<br>1.app支付<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div></pre></td><td class="code"><pre><div class="line">import java.util.*;</div><div class="line"></div><div class="line">import javax.annotation.PostConstruct;</div><div class="line"></div><div class="line">import org.slf4j.*;</div><div class="line">import org.springframework.stereotype.Service;</div><div class="line"></div><div class="line">import com.alipay.api.AlipayApiException;</div><div class="line">import com.alipay.api.internal.util.AlipaySignature;</div><div class="line"></div><div class="line">import cn.swao.baselib.util.*;</div><div class="line"></div><div class="line">@Service</div><div class="line">public class AlipayService extends AliParamService &#123;</div><div class="line"></div><div class="line">    private static Logger log = LoggerFactory.getLogger(AlipayService.class);</div><div class="line"></div><div class="line">    private String method = &quot;alipay.trade.app.pay&quot;;</div><div class="line"></div><div class="line">    private String ALIPAY_GATEWAY_NEW = &quot;https://mapi.alipay.com/gateway.do?&quot;;</div><div class="line"></div><div class="line">    @PostConstruct</div><div class="line">    public void init() &#123;</div><div class="line">        super.getClient(ALIPAY_GATEWAY_NEW);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // 获取签名</div><div class="line">    public String buildRequestPara(Map&lt;String, String&gt; sParaTemp) throws Exception &#123;</div><div class="line">        log.info(&quot;ali开始获取签名&quot;);</div><div class="line">        log.info(LogUtils.gen(&quot;sParaTemp&quot;, sParaTemp));</div><div class="line">        Map&lt;String, String&gt; map = new HashMap&lt;String, String&gt;();</div><div class="line">        map.put(&quot;app_id&quot;, app_id);</div><div class="line">        map.put(&quot;method&quot;, method);</div><div class="line">        map.put(&quot;format&quot;, format);</div><div class="line">        map.put(&quot;charset&quot;, input_charset);</div><div class="line">        map.put(&quot;sign_type&quot;, sign_type);</div><div class="line">        map.put(&quot;notify_url&quot;, notify_url);</div><div class="line">        map.put(&quot;timestamp&quot;, DateUtils.toDateTimeString(new Date()));</div><div class="line">        map.put(&quot;version&quot;, version);</div><div class="line">        sParaTemp.put(&quot;seller_id&quot;, partner);</div><div class="line">        sParaTemp.put(&quot;timeout_express&quot;, timeout_express);</div><div class="line">        map.put(&quot;biz_content&quot;, JSONUtils.toJson(sParaTemp).toString());</div><div class="line">        String sign = AlipaySignature.rsaSign(map, private_key, input_charset);</div><div class="line">        map.put(&quot;sign&quot;, sign);</div><div class="line">        String linkString = AlipayCore.encodeMap2String(map);</div><div class="line">        log.info(&quot;签名alipay:&quot; + linkString);</div><div class="line"></div><div class="line">        return linkString;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<p>其他app支付的验签查询的方法都来自父类</p>
-<p>2.网页支付和扫码支付<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div></pre></td><td class="code"><pre><div class="line">import cn.swao.baselib.util.JSONUtils;</div><div class="line">import com.alipay.api.AlipayApiException;</div><div class="line">import com.alipay.api.request.AlipayTradePrecreateRequest;</div><div class="line">import com.alipay.api.request.AlipayTradeWapPayRequest;</div><div class="line">import com.alipay.api.response.AlipayTradePrecreateResponse;</div><div class="line">import org.assertj.core.util.Strings;</div><div class="line">import org.slf4j.Logger;</div><div class="line">import org.slf4j.LoggerFactory;</div><div class="line">import org.springframework.beans.factory.annotation.Value;</div><div class="line">import org.springframework.stereotype.Service;</div><div class="line"></div><div class="line">import javax.annotation.PostConstruct;</div><div class="line">import java.io.UnsupportedEncodingException;</div><div class="line">import java.net.URLEncoder;</div><div class="line">import java.util.Map;</div><div class="line"></div><div class="line">@Service</div><div class="line">public class AliMpService extends AliParamService &#123;</div><div class="line"></div><div class="line">    private static Logger log = LoggerFactory.getLogger(AliMpService.class);</div><div class="line">    private String method = &quot;alipay.trade.wap.pay&quot;;</div><div class="line">    private String ALIPAY_OPEN_NEW = &quot;https://openapi.alipay.com/gateway.do&quot;;</div><div class="line">    private String apiVersion = &quot;3&quot;;</div><div class="line">    private String product_code = &quot;QUICK_WAP_PAY&quot;;</div><div class="line">    @Value(&quot;$&#123;returnUrl:&#125;&quot;)</div><div class="line">    private String return_url;</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;qrCodeUrl:&#125;&quot;)</div><div class="line">    public String LIANTU_URL;//生成二维码</div><div class="line"></div><div class="line">    @PostConstruct</div><div class="line">    public void init() &#123;</div><div class="line">        super.getClient(ALIPAY_OPEN_NEW);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // 手机网站支付下单</div><div class="line">    public String buildRequestPara(Map&lt;String, String&gt; sParaTemp) throws Exception &#123;</div><div class="line">        AlipayTradeWapPayRequest alipayRequest = new AlipayTradeWapPayRequest();// 创建API对应的request</div><div class="line">        alipayRequest.setNotifyUrl(notify_url);</div><div class="line">        alipayRequest.setApiVersion(apiVersion);</div><div class="line">        if (!Strings.isNullOrEmpty(sParaTemp.get(&quot;selfparam&quot;))) &#123;</div><div class="line">            String returnUrl = new StringBuffer(return_url).append(&quot;?selfparam=&quot;).append(sParaTemp.get(&quot;selfparam&quot;)).toString();</div><div class="line">            alipayRequest.setReturnUrl(returnUrl);</div><div class="line">            sParaTemp.remove(&quot;selfparam&quot;);</div><div class="line">        &#125; else &#123;</div><div class="line">            alipayRequest.setReturnUrl(return_url);</div><div class="line">        &#125;</div><div class="line">        sParaTemp.put(&quot;product_code&quot;, product_code);</div><div class="line">        String biz_content = JSONUtils.toJson(AlipayCore.emptyFilter(sParaTemp)).toString();</div><div class="line">        alipayRequest.setBizContent(biz_content);</div><div class="line">        log.info(&quot;支付宝手机网站支付业务参数：&#123;&#125;&quot;, alipayRequest);</div><div class="line">        String form = super.alipayClient.pageExecute(alipayRequest).getBody();</div><div class="line">        log.info(&quot;支付宝手机网站支付下单后参数：&#123;&#125;&quot;, form);</div><div class="line">        return form;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    /**</div><div class="line">     * 扫码支付生成二维码 map中必要参数 out_trade_no,total_amount,subject,store_id(门店编号)</div><div class="line">     */</div><div class="line">    public String buildRequestQrCode(Map&lt;String, String&gt; sParaTemp) &#123;</div><div class="line"></div><div class="line">        AlipayTradePrecreateRequest request = new AlipayTradePrecreateRequest();</div><div class="line">        request.setNotifyUrl(notify_url);</div><div class="line">        sParaTemp.put(&quot;timeout_express&quot;, timeout_express);</div><div class="line"></div><div class="line">        String bizContent = JSONUtils.toJson(sParaTemp);</div><div class="line">        request.setBizContent(bizContent);</div><div class="line">        log.info(&quot;扫码预下单:sParaTemp:&#123;&#125;&quot;, sParaTemp);</div><div class="line">        try &#123;</div><div class="line">            AlipayTradePrecreateResponse execute = super.alipayClient.execute(request);</div><div class="line">            String qrCode = execute.getQrCode();</div><div class="line">            String qrCodeUrl = LIANTU_URL + URLEncoder.encode(qrCode, &quot;UTF-8&quot;);</div><div class="line">            String body = execute.getBody();</div><div class="line">            log.info(&quot;qrCode:&#123;&#125;,qrCodeUrl:&#123;&#125;,AlipayTradePrecreateResponse.Body:&#123;&#125;&quot;, qrCode, qrCodeUrl, body);</div><div class="line">            return qrCodeUrl;</div><div class="line">        &#125; catch (AlipayApiException | UnsupportedEncodingException e) &#123;</div><div class="line">            log.error(&quot;扫码预下单失败&quot;, e);</div><div class="line">            return null;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -622,6 +420,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2017/04/09/quartz/"
+           data-title="quartz" data-url="http://yoursite.com/2017/04/09/quartz/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -641,8 +447,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="http://oahout86t.bkt.clouddn.com/a.jpg"
@@ -685,6 +500,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#一-简单的spring-boot-的quartz"><span class="nav-number">1.</span> <span class="nav-text">一.简单的spring boot 的quartz</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二-java-自带的quartz"><span class="nav-number">2.</span> <span class="nav-text">二.java 自带的quartz</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三-利用第三方和spring结合"><span class="nav-number">3.</span> <span class="nav-text">三.利用第三方和spring结合</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -788,6 +614,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
