@@ -298,6 +298,279 @@
             
               
                 
+                <a class="post-title-link" href="/2017/07/05/android 生命周期/" itemprop="url">
+                  android 活动周期
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-07-05T12:00:00+08:00" content="2017-07-05">
+              2017-07-05
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/android/" itemprop="url" rel="index">
+                    <span itemprop="name">android</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2017/07/05/android 生命周期/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/07/05/android 生命周期/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="返回栈"><a href="#返回栈" class="headerlink" title="返回栈"></a>返回栈</h2><p>安卓是使用任务来管理活动的，一个任务就是一组放在栈里面的集合，启动新活动时压入栈，按下back或者finish()出栈</p>
+<h2 id="活动状态"><a href="#活动状态" class="headerlink" title="活动状态"></a>活动状态</h2><ol>
+<li>运行状态：活动位于栈顶</li>
+<li>暂停状态：活动不处于栈顶，但仍然可见</li>
+<li>停止状态：活动不处于栈顶，又不见</li>
+<li>销毁状态：活动从返回栈种移除</li>
+</ol>
+<h2 id="活动的生命周期"><a href="#活动的生命周期" class="headerlink" title="活动的生命周期"></a>活动的生命周期</h2><ol>
+<li>onCreate()：活动的第一次创建时被调用；在这个方法种完成布局，绑定事件等操作</li>
+<li>onStart()：活动由不可见变为可见时调用</li>
+<li>onResume()：活动准备好和用户交互的时候调用，运行状态</li>
+<li>onPause()：系统准备去启动或者恢复另一个活动调用；在这个方法中将一些消耗资源释放</li>
+<li>onStop()：这个方法在活动完全不可见时调用；它和onPause()的区别，如果新活动时一个对话框式ide活动，那么onPause()会执行，onStop()不会执行</li>
+<li>OnDestroy()：在销毁之前调用，之后的活动状态为销毁状态</li>
+<li>onRestart()：活动由停止变为运行状态之前调用</li>
+</ol>
+<h2 id="生存期"><a href="#生存期" class="headerlink" title="生存期"></a>生存期</h2><ol>
+<li>完整生存期：onCreate()和onDestroy之间的经历。完成初始化和释放内存操作</li>
+<li>可见生存期：onStart()和onStop()之间的经历。</li>
+<li>前台生存期：onResume()和onPause()之间的经历。这时的活动是和用户交互的<br><img src="http://images2015.cnblogs.com/blog/15207/201512/15207-20151230134402026-2097191680.jpg" alt="cmd-markdown-logo"></li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/06/30/正则表达式/" itemprop="url">
+                  正则表达式
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-06-30T12:00:00+08:00" content="2017-06-30">
+              2017-06-30
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/正则表达式/" itemprop="url" rel="index">
+                    <span itemprop="name">正则表达式</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2017/06/30/正则表达式/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/06/30/正则表达式/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ol>
+<li>普遍字符串只能匹配其自身</li>
+<li>（.）可以匹配除换行外的任意一个字符</li>
+<li>对特殊字符进行转义，如要只匹配”python.org”,表达式为python\.org</li>
+<li>字符集。如[py]thon能配置pthon和ython；[a-zA-Z0-9]能匹配一个任意字母或数字，字符集只能匹配一个字符串；[^abc]匹配除了a、b、c之外的任意字符</li>
+<li>选择符和子模式。匹配特定的多个字符串用管道符(|),如p(ython|erl),可以匹配python和perl，这种模式也可匹配单个字符</li>
+<li>可选项和重复子模式。在子模式后面加上“?”,这个子模式就式并非必需的。如r’(<a href="http://)?(www\.)?python\.org只能匹配‘http://www.python.ory’、‘http://pytyon.org’、‘www.pyhon.org’、‘python.ory’" target="_blank" rel="external">http://)?(www\.)?python\.org只能匹配‘http://www.python.ory’、‘http://pytyon.org’、‘www.pyhon.org’、‘python.ory’</a></li>
+<li>(pattern)* 允许模式重复0次或多次</li>
+<li>(pattern)+ 允许模式重复1次或多次</li>
+<li>(pattern){m,n}允许模式重复m~n次</li>
+<li>字符串的开始和结尾。‘v’开始，‘$’结尾</li>
+<li>匹配对象和组。正则配置到的一个字符串为第一个组，()保卫的子模式就式一个组</li>
+<li>贪婪和非贪婪，重复运算符和贪婪的，它尽可能多的匹配，要使贪婪变为非贪婪，只需要在重复运算符加“？”。如“\<em>\</em>(.+)\<em>\</em>”式贪婪的，“\<em>\</em>(.+?)\<em>\</em>”是非贪婪的</li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
                 <a class="post-title-link" href="/2017/06/09/python_begin/" itemprop="url">
                   python beginner
                 </a>
@@ -683,129 +956,6 @@
             
               
                 
-                <a class="post-title-link" href="/2017/04/09/支付宝支付/" itemprop="url">
-                  支付宝支付
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-04-09T12:00:00+08:00" content="2017-04-09">
-              2017-04-09
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/spring-boot/" itemprop="url" rel="index">
-                    <span itemprop="name">spring boot</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2017/04/09/支付宝支付/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/04/09/支付宝支付/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>先导入第三方jar包<br>建立基类，所有支付类型都继承它<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div><div class="line">107</div><div class="line">108</div><div class="line">109</div><div class="line">110</div><div class="line">111</div><div class="line">112</div><div class="line">113</div><div class="line">114</div><div class="line">115</div><div class="line">116</div><div class="line">117</div><div class="line">118</div><div class="line">119</div><div class="line">120</div><div class="line">121</div><div class="line">122</div><div class="line">123</div><div class="line">124</div><div class="line">125</div><div class="line">126</div><div class="line">127</div><div class="line">128</div><div class="line">129</div><div class="line">130</div><div class="line">131</div><div class="line">132</div><div class="line">133</div><div class="line">134</div><div class="line">135</div><div class="line">136</div><div class="line">137</div><div class="line">138</div><div class="line">139</div><div class="line">140</div><div class="line">141</div><div class="line">142</div><div class="line">143</div><div class="line">144</div><div class="line">145</div><div class="line">146</div><div class="line">147</div><div class="line">148</div><div class="line">149</div><div class="line">150</div></pre></td><td class="code"><pre><div class="line">import java.util.*;</div><div class="line"></div><div class="line">import org.slf4j.*;</div><div class="line">import org.springframework.beans.factory.annotation.Value;</div><div class="line">import org.springframework.stereotype.Service;</div><div class="line"></div><div class="line">import com.alipay.api.*;</div><div class="line">import com.alipay.api.internal.util.AlipaySignature;</div><div class="line">import com.alipay.api.request.*;</div><div class="line">import com.alipay.api.response.*;</div><div class="line"></div><div class="line">import cn.swao.baselib.util.*;</div><div class="line"></div><div class="line">@Service</div><div class="line">public class AliParamService &#123;</div><div class="line">    private static Logger log = LoggerFactory.getLogger(AliParamService.class);</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;partner:&#125;&quot;)</div><div class="line">    protected String partner;</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;private_key:&#125;&quot;)</div><div class="line">    protected String private_key;</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;public_key:&#125;&quot;)</div><div class="line">    protected String public_key;</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;alipay_public_key:&#125;&quot;)</div><div class="line">    protected String alipay_public_key;</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;notify_url:&#125;&quot;)</div><div class="line">    protected String notify_url;</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;app_id:&#125;&quot;)</div><div class="line">    protected String app_id;</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;timeout_express:&#125;&quot;)</div><div class="line">    protected String timeout_express;</div><div class="line"></div><div class="line">    protected String sign_type = &quot;RSA&quot;;</div><div class="line"></div><div class="line">    protected String input_charset = &quot;utf-8&quot;;</div><div class="line"></div><div class="line">    protected String format = &quot;json&quot;;</div><div class="line"></div><div class="line">    protected String version = &quot;1.0&quot;;</div><div class="line"></div><div class="line">    protected AlipayClient alipayClient = null;</div><div class="line"></div><div class="line">    public void getClient(String requestUrl) &#123;</div><div class="line">        alipayClient = new DefaultAlipayClient(requestUrl, app_id, private_key, format, input_charset, alipay_public_key);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // 异步 synNotify</div><div class="line">    public boolean asynNotify(Map&lt;String, String&gt; map) &#123;</div><div class="line">        boolean flag = false;</div><div class="line">        try &#123;</div><div class="line">            log.info(LogUtils.gen(&quot;map&quot;, map));</div><div class="line">            if (partner.equals(map.get(&quot;seller_id&quot;)) &amp;&amp; app_id.equals(map.get(&quot;app_id&quot;))) &#123;</div><div class="line">                log.info(&quot;partner:&quot; + partner + &quot;seller_id&quot; + map.get(&quot;seller_id&quot;));</div><div class="line">                flag = AlipaySignature.rsaCheckV1(map, alipay_public_key, input_charset);</div><div class="line">            &#125;</div><div class="line">        &#125; catch (AlipayApiException e) &#123;</div><div class="line">            log.info(&quot;异步通知校验失败&quot;, e);</div><div class="line">            flag = false;</div><div class="line">        &#125;</div><div class="line">        return flag;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // 同步</div><div class="line">    public boolean synNotify(Map&lt;String, String&gt; alipay, String sign) &#123;</div><div class="line">        boolean flag = false;</div><div class="line">        log.info(&quot;同步验证参数，alipay=&#123;&#125;,sign=&#123;&#125;&quot;, alipay, sign);</div><div class="line">        try &#123;</div><div class="line">            if (partner.equals(alipay.get(&quot;seller_id&quot;)) &amp;&amp; app_id.equals(alipay.get(&quot;app_id&quot;))) &#123;</div><div class="line">                log.info(&quot;开始同步签名验证&quot;);</div><div class="line">                flag = AlipaySignature.rsaCheckContent(JSONUtils.toJson(alipay).toString(), sign, alipay_public_key, input_charset);</div><div class="line">            &#125;</div><div class="line">        &#125; catch (AlipayApiException e) &#123;</div><div class="line">            log.info(&quot;同步通知校验失败&quot;, e);</div><div class="line">            flag = false;</div><div class="line">        &#125;</div><div class="line">        return flag;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    /**</div><div class="line">     * out_trade_no 支付时传入的商户订单号，与trade_no必填一个 trade_no 支付时返回的支付宝交易号，与out_trade_no必填一个</div><div class="line">     */</div><div class="line">    public String queryOrder(Map&lt;String, String&gt; map) &#123;</div><div class="line">        AlipayTradeQueryRequest request = new AlipayTradeQueryRequest();// 创建API对应的request类</div><div class="line">        AlipayTradeQueryResponse response = null;</div><div class="line">        String result = null;</div><div class="line">        try &#123;</div><div class="line">            request.setBizContent(JSONUtils.toJson(AlipayCore.emptyFilter(map)).toString());// 设置业务参数</div><div class="line">            response = alipayClient.execute(request);</div><div class="line">            result = response.getBody();</div><div class="line">        &#125; catch (AlipayApiException e) &#123;</div><div class="line">            log.info(&quot;查询订单失败&#123;&#125;&quot;, map);</div><div class="line">        &#125;</div><div class="line">        return result;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // 退款</div><div class="line">    public Map&lt;String, Object&gt; refund(Map&lt;String, String&gt; map) &#123;</div><div class="line">        log.info(&quot;ali开始退款&quot;);</div><div class="line">        log.info(LogUtils.gen(&quot;map&quot;, map));</div><div class="line">        AlipayTradeRefundRequest request = new AlipayTradeRefundRequest();</div><div class="line">        request.setBizContent(JSONUtils.toJson(AlipayCore.emptyFilter(map)).toString());</div><div class="line">        AlipayTradeRefundResponse response = null;</div><div class="line">        boolean flag = false;</div><div class="line">        String msg = null;</div><div class="line">        String subCode = null;</div><div class="line">        String out_trade_no = null;</div><div class="line">        Map&lt;String, Object&gt; data = new HashMap&lt;String, Object&gt;();</div><div class="line">        try &#123;</div><div class="line">            response = alipayClient.execute(request);</div><div class="line">            out_trade_no = response.getOutTradeNo();</div><div class="line">            // Map body = WebUtils.getJsonParams(response.getBody());</div><div class="line">        &#125; catch (Exception e) &#123;</div><div class="line">            msg = &quot;退款失败:&quot; + e;</div><div class="line">            log.info(msg);</div><div class="line">            data.put(&quot;flag&quot;, flag);</div><div class="line">            data.put(&quot;msg&quot;, &quot;退款失败&quot;);</div><div class="line">            return data;</div><div class="line">        &#125;</div><div class="line">        if (response != null &amp;&amp; response.isSuccess()) &#123;</div><div class="line">            String fundChange = response.getFundChange();</div><div class="line">            if (&quot;Y&quot;.equals(fundChange)) &#123;</div><div class="line">                flag = true;</div><div class="line">                msg = &quot;退款成功&quot;;</div><div class="line">                data.put(&quot;out_trade_no&quot;, out_trade_no);</div><div class="line">                data.put(&quot;refund_fee&quot;, response.getRefundFee());</div><div class="line">                data.put(&quot;gmtRefundPay&quot;, response.getGmtRefundPay());</div><div class="line">                data.put(&quot;buyer_logon_id&quot;, response.getBuyerLogonId());</div><div class="line">            &#125; else if (&quot;N&quot;.equals(fundChange)) &#123;</div><div class="line">                msg = &quot;已完成退款，不可重复退款&quot;;</div><div class="line">                flag = false;</div><div class="line">            &#125;</div><div class="line">        &#125; else &#123;</div><div class="line">            msg = response.getSubMsg();</div><div class="line">            subCode = response.getSubCode();</div><div class="line">            flag = false;</div><div class="line">        &#125;</div><div class="line">        data.put(&quot;msg&quot;, msg);</div><div class="line">        data.put(&quot;flag&quot;, flag);</div><div class="line">        data.put(&quot;subCode&quot;, subCode);</div><div class="line">        log.info(LogUtils.gen(&quot;refund return&quot;, &quot;out_trade_no&quot;, out_trade_no, &quot;msg&quot;, msg, &quot;subCode&quot;, subCode));</div><div class="line">        return data;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<p>基类提供了获取支付对象、查询、退款的方法<br>1.app支付<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div></pre></td><td class="code"><pre><div class="line">import java.util.*;</div><div class="line"></div><div class="line">import javax.annotation.PostConstruct;</div><div class="line"></div><div class="line">import org.slf4j.*;</div><div class="line">import org.springframework.stereotype.Service;</div><div class="line"></div><div class="line">import com.alipay.api.AlipayApiException;</div><div class="line">import com.alipay.api.internal.util.AlipaySignature;</div><div class="line"></div><div class="line">import cn.swao.baselib.util.*;</div><div class="line"></div><div class="line">@Service</div><div class="line">public class AlipayService extends AliParamService &#123;</div><div class="line"></div><div class="line">    private static Logger log = LoggerFactory.getLogger(AlipayService.class);</div><div class="line"></div><div class="line">    private String method = &quot;alipay.trade.app.pay&quot;;</div><div class="line"></div><div class="line">    private String ALIPAY_GATEWAY_NEW = &quot;https://mapi.alipay.com/gateway.do?&quot;;</div><div class="line"></div><div class="line">    @PostConstruct</div><div class="line">    public void init() &#123;</div><div class="line">        super.getClient(ALIPAY_GATEWAY_NEW);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // 获取签名</div><div class="line">    public String buildRequestPara(Map&lt;String, String&gt; sParaTemp) throws Exception &#123;</div><div class="line">        log.info(&quot;ali开始获取签名&quot;);</div><div class="line">        log.info(LogUtils.gen(&quot;sParaTemp&quot;, sParaTemp));</div><div class="line">        Map&lt;String, String&gt; map = new HashMap&lt;String, String&gt;();</div><div class="line">        map.put(&quot;app_id&quot;, app_id);</div><div class="line">        map.put(&quot;method&quot;, method);</div><div class="line">        map.put(&quot;format&quot;, format);</div><div class="line">        map.put(&quot;charset&quot;, input_charset);</div><div class="line">        map.put(&quot;sign_type&quot;, sign_type);</div><div class="line">        map.put(&quot;notify_url&quot;, notify_url);</div><div class="line">        map.put(&quot;timestamp&quot;, DateUtils.toDateTimeString(new Date()));</div><div class="line">        map.put(&quot;version&quot;, version);</div><div class="line">        sParaTemp.put(&quot;seller_id&quot;, partner);</div><div class="line">        sParaTemp.put(&quot;timeout_express&quot;, timeout_express);</div><div class="line">        map.put(&quot;biz_content&quot;, JSONUtils.toJson(sParaTemp).toString());</div><div class="line">        String sign = AlipaySignature.rsaSign(map, private_key, input_charset);</div><div class="line">        map.put(&quot;sign&quot;, sign);</div><div class="line">        String linkString = AlipayCore.encodeMap2String(map);</div><div class="line">        log.info(&quot;签名alipay:&quot; + linkString);</div><div class="line"></div><div class="line">        return linkString;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<p>其他app支付的验签查询的方法都来自父类</p>
-<p>2.网页支付和扫码支付<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div></pre></td><td class="code"><pre><div class="line">import cn.swao.baselib.util.JSONUtils;</div><div class="line">import com.alipay.api.AlipayApiException;</div><div class="line">import com.alipay.api.request.AlipayTradePrecreateRequest;</div><div class="line">import com.alipay.api.request.AlipayTradeWapPayRequest;</div><div class="line">import com.alipay.api.response.AlipayTradePrecreateResponse;</div><div class="line">import org.assertj.core.util.Strings;</div><div class="line">import org.slf4j.Logger;</div><div class="line">import org.slf4j.LoggerFactory;</div><div class="line">import org.springframework.beans.factory.annotation.Value;</div><div class="line">import org.springframework.stereotype.Service;</div><div class="line"></div><div class="line">import javax.annotation.PostConstruct;</div><div class="line">import java.io.UnsupportedEncodingException;</div><div class="line">import java.net.URLEncoder;</div><div class="line">import java.util.Map;</div><div class="line"></div><div class="line">@Service</div><div class="line">public class AliMpService extends AliParamService &#123;</div><div class="line"></div><div class="line">    private static Logger log = LoggerFactory.getLogger(AliMpService.class);</div><div class="line">    private String method = &quot;alipay.trade.wap.pay&quot;;</div><div class="line">    private String ALIPAY_OPEN_NEW = &quot;https://openapi.alipay.com/gateway.do&quot;;</div><div class="line">    private String apiVersion = &quot;3&quot;;</div><div class="line">    private String product_code = &quot;QUICK_WAP_PAY&quot;;</div><div class="line">    @Value(&quot;$&#123;returnUrl:&#125;&quot;)</div><div class="line">    private String return_url;</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;qrCodeUrl:&#125;&quot;)</div><div class="line">    public String LIANTU_URL;//生成二维码</div><div class="line"></div><div class="line">    @PostConstruct</div><div class="line">    public void init() &#123;</div><div class="line">        super.getClient(ALIPAY_OPEN_NEW);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // 手机网站支付下单</div><div class="line">    public String buildRequestPara(Map&lt;String, String&gt; sParaTemp) throws Exception &#123;</div><div class="line">        AlipayTradeWapPayRequest alipayRequest = new AlipayTradeWapPayRequest();// 创建API对应的request</div><div class="line">        alipayRequest.setNotifyUrl(notify_url);</div><div class="line">        alipayRequest.setApiVersion(apiVersion);</div><div class="line">        if (!Strings.isNullOrEmpty(sParaTemp.get(&quot;selfparam&quot;))) &#123;</div><div class="line">            String returnUrl = new StringBuffer(return_url).append(&quot;?selfparam=&quot;).append(sParaTemp.get(&quot;selfparam&quot;)).toString();</div><div class="line">            alipayRequest.setReturnUrl(returnUrl);</div><div class="line">            sParaTemp.remove(&quot;selfparam&quot;);</div><div class="line">        &#125; else &#123;</div><div class="line">            alipayRequest.setReturnUrl(return_url);</div><div class="line">        &#125;</div><div class="line">        sParaTemp.put(&quot;product_code&quot;, product_code);</div><div class="line">        String biz_content = JSONUtils.toJson(AlipayCore.emptyFilter(sParaTemp)).toString();</div><div class="line">        alipayRequest.setBizContent(biz_content);</div><div class="line">        log.info(&quot;支付宝手机网站支付业务参数：&#123;&#125;&quot;, alipayRequest);</div><div class="line">        String form = super.alipayClient.pageExecute(alipayRequest).getBody();</div><div class="line">        log.info(&quot;支付宝手机网站支付下单后参数：&#123;&#125;&quot;, form);</div><div class="line">        return form;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    /**</div><div class="line">     * 扫码支付生成二维码 map中必要参数 out_trade_no,total_amount,subject,store_id(门店编号)</div><div class="line">     */</div><div class="line">    public String buildRequestQrCode(Map&lt;String, String&gt; sParaTemp) &#123;</div><div class="line"></div><div class="line">        AlipayTradePrecreateRequest request = new AlipayTradePrecreateRequest();</div><div class="line">        request.setNotifyUrl(notify_url);</div><div class="line">        sParaTemp.put(&quot;timeout_express&quot;, timeout_express);</div><div class="line"></div><div class="line">        String bizContent = JSONUtils.toJson(sParaTemp);</div><div class="line">        request.setBizContent(bizContent);</div><div class="line">        log.info(&quot;扫码预下单:sParaTemp:&#123;&#125;&quot;, sParaTemp);</div><div class="line">        try &#123;</div><div class="line">            AlipayTradePrecreateResponse execute = super.alipayClient.execute(request);</div><div class="line">            String qrCode = execute.getQrCode();</div><div class="line">            String qrCodeUrl = LIANTU_URL + URLEncoder.encode(qrCode, &quot;UTF-8&quot;);</div><div class="line">            String body = execute.getBody();</div><div class="line">            log.info(&quot;qrCode:&#123;&#125;,qrCodeUrl:&#123;&#125;,AlipayTradePrecreateResponse.Body:&#123;&#125;&quot;, qrCode, qrCodeUrl, body);</div><div class="line">            return qrCodeUrl;</div><div class="line">        &#125; catch (AlipayApiException | UnsupportedEncodingException e) &#123;</div><div class="line">            log.error(&quot;扫码预下单失败&quot;, e);</div><div class="line">            return null;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
                 <a class="post-title-link" href="/2017/04/09/微信支付/" itemprop="url">
                   微信支付
                 </a>
@@ -919,6 +1069,129 @@
 
 
     
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/04/09/支付宝支付/" itemprop="url">
+                  支付宝支付
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-04-09T12:00:00+08:00" content="2017-04-09">
+              2017-04-09
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/spring-boot/" itemprop="url" rel="index">
+                    <span itemprop="name">spring boot</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2017/04/09/支付宝支付/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/04/09/支付宝支付/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>先导入第三方jar包<br>建立基类，所有支付类型都继承它<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div><div class="line">107</div><div class="line">108</div><div class="line">109</div><div class="line">110</div><div class="line">111</div><div class="line">112</div><div class="line">113</div><div class="line">114</div><div class="line">115</div><div class="line">116</div><div class="line">117</div><div class="line">118</div><div class="line">119</div><div class="line">120</div><div class="line">121</div><div class="line">122</div><div class="line">123</div><div class="line">124</div><div class="line">125</div><div class="line">126</div><div class="line">127</div><div class="line">128</div><div class="line">129</div><div class="line">130</div><div class="line">131</div><div class="line">132</div><div class="line">133</div><div class="line">134</div><div class="line">135</div><div class="line">136</div><div class="line">137</div><div class="line">138</div><div class="line">139</div><div class="line">140</div><div class="line">141</div><div class="line">142</div><div class="line">143</div><div class="line">144</div><div class="line">145</div><div class="line">146</div><div class="line">147</div><div class="line">148</div><div class="line">149</div><div class="line">150</div></pre></td><td class="code"><pre><div class="line">import java.util.*;</div><div class="line"></div><div class="line">import org.slf4j.*;</div><div class="line">import org.springframework.beans.factory.annotation.Value;</div><div class="line">import org.springframework.stereotype.Service;</div><div class="line"></div><div class="line">import com.alipay.api.*;</div><div class="line">import com.alipay.api.internal.util.AlipaySignature;</div><div class="line">import com.alipay.api.request.*;</div><div class="line">import com.alipay.api.response.*;</div><div class="line"></div><div class="line">import cn.swao.baselib.util.*;</div><div class="line"></div><div class="line">@Service</div><div class="line">public class AliParamService &#123;</div><div class="line">    private static Logger log = LoggerFactory.getLogger(AliParamService.class);</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;partner:&#125;&quot;)</div><div class="line">    protected String partner;</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;private_key:&#125;&quot;)</div><div class="line">    protected String private_key;</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;public_key:&#125;&quot;)</div><div class="line">    protected String public_key;</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;alipay_public_key:&#125;&quot;)</div><div class="line">    protected String alipay_public_key;</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;notify_url:&#125;&quot;)</div><div class="line">    protected String notify_url;</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;app_id:&#125;&quot;)</div><div class="line">    protected String app_id;</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;timeout_express:&#125;&quot;)</div><div class="line">    protected String timeout_express;</div><div class="line"></div><div class="line">    protected String sign_type = &quot;RSA&quot;;</div><div class="line"></div><div class="line">    protected String input_charset = &quot;utf-8&quot;;</div><div class="line"></div><div class="line">    protected String format = &quot;json&quot;;</div><div class="line"></div><div class="line">    protected String version = &quot;1.0&quot;;</div><div class="line"></div><div class="line">    protected AlipayClient alipayClient = null;</div><div class="line"></div><div class="line">    public void getClient(String requestUrl) &#123;</div><div class="line">        alipayClient = new DefaultAlipayClient(requestUrl, app_id, private_key, format, input_charset, alipay_public_key);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // 异步 synNotify</div><div class="line">    public boolean asynNotify(Map&lt;String, String&gt; map) &#123;</div><div class="line">        boolean flag = false;</div><div class="line">        try &#123;</div><div class="line">            log.info(LogUtils.gen(&quot;map&quot;, map));</div><div class="line">            if (partner.equals(map.get(&quot;seller_id&quot;)) &amp;&amp; app_id.equals(map.get(&quot;app_id&quot;))) &#123;</div><div class="line">                log.info(&quot;partner:&quot; + partner + &quot;seller_id&quot; + map.get(&quot;seller_id&quot;));</div><div class="line">                flag = AlipaySignature.rsaCheckV1(map, alipay_public_key, input_charset);</div><div class="line">            &#125;</div><div class="line">        &#125; catch (AlipayApiException e) &#123;</div><div class="line">            log.info(&quot;异步通知校验失败&quot;, e);</div><div class="line">            flag = false;</div><div class="line">        &#125;</div><div class="line">        return flag;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // 同步</div><div class="line">    public boolean synNotify(Map&lt;String, String&gt; alipay, String sign) &#123;</div><div class="line">        boolean flag = false;</div><div class="line">        log.info(&quot;同步验证参数，alipay=&#123;&#125;,sign=&#123;&#125;&quot;, alipay, sign);</div><div class="line">        try &#123;</div><div class="line">            if (partner.equals(alipay.get(&quot;seller_id&quot;)) &amp;&amp; app_id.equals(alipay.get(&quot;app_id&quot;))) &#123;</div><div class="line">                log.info(&quot;开始同步签名验证&quot;);</div><div class="line">                flag = AlipaySignature.rsaCheckContent(JSONUtils.toJson(alipay).toString(), sign, alipay_public_key, input_charset);</div><div class="line">            &#125;</div><div class="line">        &#125; catch (AlipayApiException e) &#123;</div><div class="line">            log.info(&quot;同步通知校验失败&quot;, e);</div><div class="line">            flag = false;</div><div class="line">        &#125;</div><div class="line">        return flag;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    /**</div><div class="line">     * out_trade_no 支付时传入的商户订单号，与trade_no必填一个 trade_no 支付时返回的支付宝交易号，与out_trade_no必填一个</div><div class="line">     */</div><div class="line">    public String queryOrder(Map&lt;String, String&gt; map) &#123;</div><div class="line">        AlipayTradeQueryRequest request = new AlipayTradeQueryRequest();// 创建API对应的request类</div><div class="line">        AlipayTradeQueryResponse response = null;</div><div class="line">        String result = null;</div><div class="line">        try &#123;</div><div class="line">            request.setBizContent(JSONUtils.toJson(AlipayCore.emptyFilter(map)).toString());// 设置业务参数</div><div class="line">            response = alipayClient.execute(request);</div><div class="line">            result = response.getBody();</div><div class="line">        &#125; catch (AlipayApiException e) &#123;</div><div class="line">            log.info(&quot;查询订单失败&#123;&#125;&quot;, map);</div><div class="line">        &#125;</div><div class="line">        return result;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // 退款</div><div class="line">    public Map&lt;String, Object&gt; refund(Map&lt;String, String&gt; map) &#123;</div><div class="line">        log.info(&quot;ali开始退款&quot;);</div><div class="line">        log.info(LogUtils.gen(&quot;map&quot;, map));</div><div class="line">        AlipayTradeRefundRequest request = new AlipayTradeRefundRequest();</div><div class="line">        request.setBizContent(JSONUtils.toJson(AlipayCore.emptyFilter(map)).toString());</div><div class="line">        AlipayTradeRefundResponse response = null;</div><div class="line">        boolean flag = false;</div><div class="line">        String msg = null;</div><div class="line">        String subCode = null;</div><div class="line">        String out_trade_no = null;</div><div class="line">        Map&lt;String, Object&gt; data = new HashMap&lt;String, Object&gt;();</div><div class="line">        try &#123;</div><div class="line">            response = alipayClient.execute(request);</div><div class="line">            out_trade_no = response.getOutTradeNo();</div><div class="line">            // Map body = WebUtils.getJsonParams(response.getBody());</div><div class="line">        &#125; catch (Exception e) &#123;</div><div class="line">            msg = &quot;退款失败:&quot; + e;</div><div class="line">            log.info(msg);</div><div class="line">            data.put(&quot;flag&quot;, flag);</div><div class="line">            data.put(&quot;msg&quot;, &quot;退款失败&quot;);</div><div class="line">            return data;</div><div class="line">        &#125;</div><div class="line">        if (response != null &amp;&amp; response.isSuccess()) &#123;</div><div class="line">            String fundChange = response.getFundChange();</div><div class="line">            if (&quot;Y&quot;.equals(fundChange)) &#123;</div><div class="line">                flag = true;</div><div class="line">                msg = &quot;退款成功&quot;;</div><div class="line">                data.put(&quot;out_trade_no&quot;, out_trade_no);</div><div class="line">                data.put(&quot;refund_fee&quot;, response.getRefundFee());</div><div class="line">                data.put(&quot;gmtRefundPay&quot;, response.getGmtRefundPay());</div><div class="line">                data.put(&quot;buyer_logon_id&quot;, response.getBuyerLogonId());</div><div class="line">            &#125; else if (&quot;N&quot;.equals(fundChange)) &#123;</div><div class="line">                msg = &quot;已完成退款，不可重复退款&quot;;</div><div class="line">                flag = false;</div><div class="line">            &#125;</div><div class="line">        &#125; else &#123;</div><div class="line">            msg = response.getSubMsg();</div><div class="line">            subCode = response.getSubCode();</div><div class="line">            flag = false;</div><div class="line">        &#125;</div><div class="line">        data.put(&quot;msg&quot;, msg);</div><div class="line">        data.put(&quot;flag&quot;, flag);</div><div class="line">        data.put(&quot;subCode&quot;, subCode);</div><div class="line">        log.info(LogUtils.gen(&quot;refund return&quot;, &quot;out_trade_no&quot;, out_trade_no, &quot;msg&quot;, msg, &quot;subCode&quot;, subCode));</div><div class="line">        return data;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>基类提供了获取支付对象、查询、退款的方法<br>1.app支付<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div></pre></td><td class="code"><pre><div class="line">import java.util.*;</div><div class="line"></div><div class="line">import javax.annotation.PostConstruct;</div><div class="line"></div><div class="line">import org.slf4j.*;</div><div class="line">import org.springframework.stereotype.Service;</div><div class="line"></div><div class="line">import com.alipay.api.AlipayApiException;</div><div class="line">import com.alipay.api.internal.util.AlipaySignature;</div><div class="line"></div><div class="line">import cn.swao.baselib.util.*;</div><div class="line"></div><div class="line">@Service</div><div class="line">public class AlipayService extends AliParamService &#123;</div><div class="line"></div><div class="line">    private static Logger log = LoggerFactory.getLogger(AlipayService.class);</div><div class="line"></div><div class="line">    private String method = &quot;alipay.trade.app.pay&quot;;</div><div class="line"></div><div class="line">    private String ALIPAY_GATEWAY_NEW = &quot;https://mapi.alipay.com/gateway.do?&quot;;</div><div class="line"></div><div class="line">    @PostConstruct</div><div class="line">    public void init() &#123;</div><div class="line">        super.getClient(ALIPAY_GATEWAY_NEW);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // 获取签名</div><div class="line">    public String buildRequestPara(Map&lt;String, String&gt; sParaTemp) throws Exception &#123;</div><div class="line">        log.info(&quot;ali开始获取签名&quot;);</div><div class="line">        log.info(LogUtils.gen(&quot;sParaTemp&quot;, sParaTemp));</div><div class="line">        Map&lt;String, String&gt; map = new HashMap&lt;String, String&gt;();</div><div class="line">        map.put(&quot;app_id&quot;, app_id);</div><div class="line">        map.put(&quot;method&quot;, method);</div><div class="line">        map.put(&quot;format&quot;, format);</div><div class="line">        map.put(&quot;charset&quot;, input_charset);</div><div class="line">        map.put(&quot;sign_type&quot;, sign_type);</div><div class="line">        map.put(&quot;notify_url&quot;, notify_url);</div><div class="line">        map.put(&quot;timestamp&quot;, DateUtils.toDateTimeString(new Date()));</div><div class="line">        map.put(&quot;version&quot;, version);</div><div class="line">        sParaTemp.put(&quot;seller_id&quot;, partner);</div><div class="line">        sParaTemp.put(&quot;timeout_express&quot;, timeout_express);</div><div class="line">        map.put(&quot;biz_content&quot;, JSONUtils.toJson(sParaTemp).toString());</div><div class="line">        String sign = AlipaySignature.rsaSign(map, private_key, input_charset);</div><div class="line">        map.put(&quot;sign&quot;, sign);</div><div class="line">        String linkString = AlipayCore.encodeMap2String(map);</div><div class="line">        log.info(&quot;签名alipay:&quot; + linkString);</div><div class="line"></div><div class="line">        return linkString;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>其他app支付的验签查询的方法都来自父类</p>
+<p>2.网页支付和扫码支付<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div></pre></td><td class="code"><pre><div class="line">import cn.swao.baselib.util.JSONUtils;</div><div class="line">import com.alipay.api.AlipayApiException;</div><div class="line">import com.alipay.api.request.AlipayTradePrecreateRequest;</div><div class="line">import com.alipay.api.request.AlipayTradeWapPayRequest;</div><div class="line">import com.alipay.api.response.AlipayTradePrecreateResponse;</div><div class="line">import org.assertj.core.util.Strings;</div><div class="line">import org.slf4j.Logger;</div><div class="line">import org.slf4j.LoggerFactory;</div><div class="line">import org.springframework.beans.factory.annotation.Value;</div><div class="line">import org.springframework.stereotype.Service;</div><div class="line"></div><div class="line">import javax.annotation.PostConstruct;</div><div class="line">import java.io.UnsupportedEncodingException;</div><div class="line">import java.net.URLEncoder;</div><div class="line">import java.util.Map;</div><div class="line"></div><div class="line">@Service</div><div class="line">public class AliMpService extends AliParamService &#123;</div><div class="line"></div><div class="line">    private static Logger log = LoggerFactory.getLogger(AliMpService.class);</div><div class="line">    private String method = &quot;alipay.trade.wap.pay&quot;;</div><div class="line">    private String ALIPAY_OPEN_NEW = &quot;https://openapi.alipay.com/gateway.do&quot;;</div><div class="line">    private String apiVersion = &quot;3&quot;;</div><div class="line">    private String product_code = &quot;QUICK_WAP_PAY&quot;;</div><div class="line">    @Value(&quot;$&#123;returnUrl:&#125;&quot;)</div><div class="line">    private String return_url;</div><div class="line"></div><div class="line">    @Value(&quot;$&#123;qrCodeUrl:&#125;&quot;)</div><div class="line">    public String LIANTU_URL;//生成二维码</div><div class="line"></div><div class="line">    @PostConstruct</div><div class="line">    public void init() &#123;</div><div class="line">        super.getClient(ALIPAY_OPEN_NEW);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // 手机网站支付下单</div><div class="line">    public String buildRequestPara(Map&lt;String, String&gt; sParaTemp) throws Exception &#123;</div><div class="line">        AlipayTradeWapPayRequest alipayRequest = new AlipayTradeWapPayRequest();// 创建API对应的request</div><div class="line">        alipayRequest.setNotifyUrl(notify_url);</div><div class="line">        alipayRequest.setApiVersion(apiVersion);</div><div class="line">        if (!Strings.isNullOrEmpty(sParaTemp.get(&quot;selfparam&quot;))) &#123;</div><div class="line">            String returnUrl = new StringBuffer(return_url).append(&quot;?selfparam=&quot;).append(sParaTemp.get(&quot;selfparam&quot;)).toString();</div><div class="line">            alipayRequest.setReturnUrl(returnUrl);</div><div class="line">            sParaTemp.remove(&quot;selfparam&quot;);</div><div class="line">        &#125; else &#123;</div><div class="line">            alipayRequest.setReturnUrl(return_url);</div><div class="line">        &#125;</div><div class="line">        sParaTemp.put(&quot;product_code&quot;, product_code);</div><div class="line">        String biz_content = JSONUtils.toJson(AlipayCore.emptyFilter(sParaTemp)).toString();</div><div class="line">        alipayRequest.setBizContent(biz_content);</div><div class="line">        log.info(&quot;支付宝手机网站支付业务参数：&#123;&#125;&quot;, alipayRequest);</div><div class="line">        String form = super.alipayClient.pageExecute(alipayRequest).getBody();</div><div class="line">        log.info(&quot;支付宝手机网站支付下单后参数：&#123;&#125;&quot;, form);</div><div class="line">        return form;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    /**</div><div class="line">     * 扫码支付生成二维码 map中必要参数 out_trade_no,total_amount,subject,store_id(门店编号)</div><div class="line">     */</div><div class="line">    public String buildRequestQrCode(Map&lt;String, String&gt; sParaTemp) &#123;</div><div class="line"></div><div class="line">        AlipayTradePrecreateRequest request = new AlipayTradePrecreateRequest();</div><div class="line">        request.setNotifyUrl(notify_url);</div><div class="line">        sParaTemp.put(&quot;timeout_express&quot;, timeout_express);</div><div class="line"></div><div class="line">        String bizContent = JSONUtils.toJson(sParaTemp);</div><div class="line">        request.setBizContent(bizContent);</div><div class="line">        log.info(&quot;扫码预下单:sParaTemp:&#123;&#125;&quot;, sParaTemp);</div><div class="line">        try &#123;</div><div class="line">            AlipayTradePrecreateResponse execute = super.alipayClient.execute(request);</div><div class="line">            String qrCode = execute.getQrCode();</div><div class="line">            String qrCodeUrl = LIANTU_URL + URLEncoder.encode(qrCode, &quot;UTF-8&quot;);</div><div class="line">            String body = execute.getBody();</div><div class="line">            log.info(&quot;qrCode:&#123;&#125;,qrCodeUrl:&#123;&#125;,AlipayTradePrecreateResponse.Body:&#123;&#125;&quot;, qrCode, qrCodeUrl, body);</div><div class="line">            return qrCodeUrl;</div><div class="line">        &#125; catch (AlipayApiException | UnsupportedEncodingException e) &#123;</div><div class="line">            log.error(&quot;扫码预下单失败&quot;, e);</div><div class="line">            return null;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
   </section>
 
   
@@ -960,7 +1233,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">4</span>
+              <span class="site-state-item-count">6</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -968,7 +1241,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -977,7 +1250,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">6</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
